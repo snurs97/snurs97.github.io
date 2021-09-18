@@ -11,16 +11,19 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
-.logo {
+.logo a{
+    text-decoration: none;
     color: aliceblue;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
     transition: ease 0.3s;
 }
-.logo:hover {
+
+.logo a:hover {
+    cursor:pointer;
     color:cyan;
-    background-color:midnightblue;
+    text-shadow: 2px 2px 2px blue;
     transition: ease 0.3s;
 }
 
@@ -40,7 +43,7 @@ nav {
     font-weight: bold;
     font-size: 14px;
     transition: ease 0.5s;
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
     border-radius: 25px;
     
 }
