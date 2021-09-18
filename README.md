@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 head over to https://snurs97.github.io/
 
 <!--
 **snurs97/snurs97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
