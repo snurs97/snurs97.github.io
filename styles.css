@@ -16,6 +16,12 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    transition: ease 0.3s;
+}
+.logo:hover {
+    color:cyan;
+    background-color:midnightblue;
+    transition: ease 0.3s;
 }
 
 .nav-links {
