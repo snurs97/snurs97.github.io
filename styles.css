@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color: #2b2b2b;
     font-family: 'Poppins', sans-serif;
 }
@@ -74,12 +74,14 @@ nav {
 @media screen and (max-width:768px){
     body {
         overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 90vh;
+        top: 10vh;
         background-color: #3a3a3a;
         display: flex;
         flex-direction: column;
