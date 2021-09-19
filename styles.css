@@ -13,17 +13,18 @@ nav {
 
 .logo a{
     text-decoration: none;
-    color: aliceblue;
+    color:cyan;
+    text-shadow: 2px 2px 2px blue;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 22px;
     transition: ease 0.3s;
 }
 
 .logo a:hover {
     cursor:pointer;
-    color:cyan;
-    text-shadow: 2px 2px 2px blue;
+    color:blue;
+    text-shadow: 1px 1px 1px cyan;
     transition: ease 0.3s;
 }
 
