@@ -31,7 +31,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
 }
 .nav-links li{
     list-style: none;
@@ -66,6 +66,28 @@ nav {
     transition: all 0.3s ease;
 }
 
+.top{
+    background-color: #181818;
+}
+.header{
+    padding: 8rem 4rem;
+    
+}
+#header-title{
+    color:turquoise;
+    /* padding: 1.5em 1em 1.5em 1em; */
+    font-size: 6rem;
+    line-height: 1;
+    letter-spacing: 0em;
+    font-weight: 600;
+    font-family: 'Lalezar', cursive;
+}
+#header-text{
+    color: thistle;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.5rem;
+}
+
 @media screen and (max-width:1024px){
     .nav-links {
         width: 50%;
@@ -98,6 +120,13 @@ nav {
     .burger {
         display: block;
     }
+
+    #header-title{
+        font-size: 3rem;
+    }
+    #header-text{
+        font-size: 1.5rem;
+    }
 }
 
 .nav-active{
@@ -125,7 +154,5 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.top{
-    background-color: #181818;
-    overflow-y: visible;
-}
+
+
