@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
 *{
     margin: 0;
     scroll-behavior: smooth;
@@ -131,7 +132,43 @@ nav {
     margin-bottom: 10px;
 }
 .info-text p{
+    margin-bottom: 15px;
+}
+.info-text .bold{
+    font-weight: bold;
+}
+.info-text ul{
+    list-style: none;
+    padding: 0;
+}
+.info-text ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-text ul li:not(:last-child){
     margin-bottom: 10px;
+}
+.info-text ul li:last-child{
+    margin-bottom: 25px;
+}
+.info-text ul .email{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.info-text ul .email:hover{
+    color:deepskyblue;
+}
+
+.info-text .socials{
+    display: flex;
+    align-items: center;
+}
+.info-text .socials a{
+    margin-left: 10px;
+    height: 48px;
+}
+.info-text .socials a:hover{
+    box-shadow: 0 0 3px whitesmoke;
 }
 @media screen and (max-width:1200px){
     .info-pic{

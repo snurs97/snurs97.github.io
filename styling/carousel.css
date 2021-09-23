@@ -66,3 +66,9 @@
     transform: translateY(-4px);
     transition: ease 0.3s;
 }
+.info-pic .controls ul li:hover{
+    width: 18px;
+    height: 18px;
+    transform: translateY(-4px);
+    transition: ease 0.3s;
+}
