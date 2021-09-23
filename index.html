@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carousel.css">
 </head>
 <body>
     <div class="wrapper">
         <section class="top" id="top">
-            <nav>
+            <nav class="nav">
                 <div class="logo">
                     <a href="/">@snurs97</a>
                 </div>
@@ -45,12 +46,61 @@
             
         </section>
 
-        <img src="/under-construction-1.jpg" width="100%">
+        <!-- <img src="/under-construction-1.jpg" width="100%"> -->
         
         <section id="about">
-            <div class="about"></div>
+            <div class="info">
+                <div class="info-pic">
+                    <div class="carousel">
+                        <div class="slider">
+                            <section><img src="/images/1.jpg"></section>
+                            <section><img src="/images/2.jpg"></section>
+                            <section><img src="/images/3.jpg"></section>
+                            <section><img src="/images/4.jpg"></section>
+                            <section><img src="/images/5.jpg"></section>
+                            <section><img src="/images/6.jpg"></section>
+                            <section><img src="/images/7.jpg"></section>
+                            <section><img src="/images/8.jpg"></section>
+                            <section><img src="/images/9.jpg"></section>
+                            <section><img src="/images/10.jpg"></section>
+                            <section><img src="/images/11.jpg"></section>
+                        </div>
+                        <div class="controls">
+                            <span class="arrow left">
+                                <span class="material-icons">
+                                    navigate_before
+                                </span>
+                            </span>
+                            <span class="arrow right">
+                                <span class="material-icons">
+                                    navigate_next
+                                </span>
+                            </span>
+                            <ul>
+                                <li class="selected"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-text">
+                    <h1>--- About Me ---</12>
+                    <h2>Hi, I'm Shubham Nursing.</h2>
+                    <p>I code stuff, bake cakes, and take pictures.</p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maxime hic veniam voluptatem quas impedit reiciendis repellendus, totam quam nostrum modi. Inventore, laborum iure porro voluptates ullam itaque consequuntur quibusdam?
+                </div>
+            </div>
         </section>
-
+        <img src="/images/under-construction-1.jpg" width="100%">
         <section id="doodles">
             <div class="doodles"></div>
         </section>
@@ -58,5 +108,6 @@
         <div class="footer"></div>
     </div>
     <script src="nav-script.js"></script>
+    <script src="carousel.js"></script>
 </body>
 </html>
