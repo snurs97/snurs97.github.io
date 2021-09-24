@@ -166,9 +166,13 @@ nav {
 .info-text .socials a{
     margin-left: 10px;
     height: 48px;
+    transition: ease 0.3s;
 }
 .info-text .socials a:hover{
-    box-shadow: 0 0 3px whitesmoke;
+    box-shadow: 0 0 3px white;
+    background:#181818;
+    filter:brightness(2);
+    transition: ease 0.3s;
 }
 @media screen and (max-width:1200px){
     .info-pic{
