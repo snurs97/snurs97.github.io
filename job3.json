@@ -1,0 +1,128 @@
+[
+  {
+    "Job": {
+      "Audio": {
+        "AudioList": [
+          {
+            "Bitrate": 160,
+            "DRC": 0.0,
+            "Encoder": "av_aac",
+            "Gain": 0.0,
+            "Mixdown": 4,
+            "NormalizeMixLevel": false,
+            "Samplerate": 0,
+            "Track": 0,
+            "DitherMethod": 0
+          }
+        ],
+        "CopyMask": [
+          "copy:aac",
+          "copy:ac3",
+          "copy:dtshd",
+          "copy:dts",
+          "copy:eac3",
+          "copy:flac",
+          "copy:mp3",
+          "copy:truehd"
+        ],
+        "FallbackEncoder": "ac3"
+      },
+      "Destination": {
+        "ChapterList": [
+          {
+            "Name": "Chapter 1"
+          }
+        ],
+        "ChapterMarkers": true,
+        "AlignAVStart": true,
+        "File": "D:\\TelecomY4 - SN - LECTURES and Resources\\4064Y - Next Generation Networks\\2022-02-17 11-39-50-1.m4v",
+        "Mp4Options": {
+          "IpodAtom": false,
+          "Mp4Optimize": false
+        },
+        "Mux": "av_mp4"
+      },
+      "Filters": {
+        "FilterList": [
+          {
+            "ID": 4,
+            "Settings": {
+              "mode": "7"
+            }
+          },
+          {
+            "ID": 3,
+            "Settings": {
+              "block-height": "16",
+              "block-thresh": "80",
+              "block-width": "16",
+              "filter-mode": "1",
+              "mode": "0",
+              "motion-thresh": "2",
+              "spatial-metric": "2",
+              "spatial-thresh": "3"
+            }
+          },
+          {
+            "ID": 12,
+            "Settings": {
+              "crop-bottom": "0",
+              "crop-left": "4",
+              "crop-right": "0",
+              "crop-top": "0",
+              "height": "1080",
+              "width": "1916"
+            }
+          },
+          {
+            "ID": 6,
+            "Settings": {
+              "mode": "2",
+              "rate": "27000000/1125000"
+            }
+          }
+        ]
+      },
+      "PAR": {
+        "Num": 1,
+        "Den": 1
+      },
+      "Metadata": {},
+      "SequenceID": 0,
+      "Source": {
+        "Angle": 1,
+        "Range": {
+          "Type": "chapter",
+          "Start": 1,
+          "End": 1
+        },
+        "Title": 1,
+        "Path": "C:\\Users\\Admin\\Videos\\2022-02-17 11-39-50.mp4"
+      },
+      "Subtitle": {
+        "Search": {
+          "Burn": true,
+          "Default": false,
+          "Enable": true,
+          "Forced": true
+        },
+        "SubtitleList": []
+      },
+      "Video": {
+        "Encoder": "qsv_h264",
+        "Level": "auto",
+        "TwoPass": false,
+        "Turbo": false,
+        "ColorMatrixCode": 0,
+        "Options": "",
+        "Preset": "balanced",
+        "Profile": "auto",
+        "Quality": 24.0,
+        "QSV": {
+          "Decode": false,
+          "AsyncDepth": 0
+        }
+      }
+    }
+  }
+]
